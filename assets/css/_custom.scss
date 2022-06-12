@@ -1,0 +1,27 @@
+// ==============================
+// Custom style
+// 自定义样式
+// ==============================
+/* 首页文章摘要 */
+.home[posts] .summary {
+	margin-bottom: .1rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+    background: white;
+	opacity: .95;
+}
+[theme=dark] .home[posts] .summary {
+    background: #3a3535;
+}
+
+/* 图片 */
+figcaption {
+    display: none !important;
+}
+
+img[data-sizes="auto"] {
+    display: block;
+/*    width: 50%;*/
+}
